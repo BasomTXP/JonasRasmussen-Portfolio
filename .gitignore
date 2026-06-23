@@ -1,0 +1,4 @@
+# Large source files — keep locally but don't commit to GitHub
+assets/**/*.MOV
+assets/**/*.HEIC
+assets/**/*.gif

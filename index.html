@@ -88,7 +88,7 @@
         color: var(--acc2);
       }
       .hero {
-        padding: calc(var(--nav-h)+2rem) 2rem 1.75rem;
+        padding: calc(var(--nav-h) + 2rem) 2rem 1.75rem;
         max-width: 860px;
         margin: 0 auto;
       }
@@ -589,14 +589,16 @@
 
     <main id="main-content">
       <div class="hero">
-        <p class="eye">UX &amp; Interaction Designer</p>
+        <p class="eye">UX, Interaction &amp; Media Designer</p>
         <h1>Jonas Hegelund Rasmussen</h1>
         <p class="sub">
-          I design experiences grounded in research, tested with real users, and
-          built close enough to code to survive contact with a developer.
+          I'm an empathy driven designer who designs experiences grounded in
+          research, tested with real users, and built to be fun, satisfying, and
+          properly usable.
         </p>
         <p class="credential">
-          M.Sc. Digital Design &nbsp;&middot;&nbsp; Aarhus University
+          Bachelor's and Master's in Digital Design &nbsp;&middot;&nbsp; Aarhus
+          University 2020 - 2025
         </p>
         <div class="tags">
           <span class="tag tag-a">Figma</span>
@@ -616,7 +618,7 @@
             aria-controls="tab-ux"
             onclick="switchTab('ux', this)"
           >
-            UX Design
+            UX & Interaction Design Projects
           </button>
           <button
             class="tab-btn"
@@ -656,20 +658,24 @@
                 <div class="proj-tags-row">
                   <span class="tag tag-a">User Research</span>
                   <span class="tag tag-a">Physical Prototyping</span>
-                  <span class="tag tag-a">Arduino</span>
-                  <span class="tag">3D Printing</span>
+                  <span class="tag tag-a">Behaviour Change Design</span>
+                  <span class="tag">Arduino</span>
                 </div>
                 <span class="proj-hint" aria-hidden="true"
                   >Read case study &rarr;</span
                 >
               </div>
-              <img class="proj-thumb" src="assets/img-001.jpg" alt="" />
+              <img
+                class="proj-thumb"
+                src="assets/RestBand/img-001.jpg"
+                alt=""
+              />
               <span class="proj-chevron" aria-hidden="true">&#x203A;</span>
             </button>
             <div class="proj-body" id="body-rb">
               <img
                 class="proj-img hero-img"
-                src="assets/img-001.jpg"
+                src="assets/RestBand/img-001.jpg"
                 alt="RestBand 3D render — wristband with LED strip attached to Apple Watch"
                 loading="lazy"
               />
@@ -696,7 +702,7 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-002.jpg"
+                    src="assets/RestBand/img-002.jpg"
                     alt="Team presenting RestBand research findings at the department design expo"
                     loading="lazy"
                   />
@@ -714,7 +720,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-003.jpg"
+                    src="assets/RestBand/img-003.jpg"
                     style="object-fit: contain; background: #2a2a2a"
                     alt="Watchband LED concept sketches showing strap form factors"
                     loading="lazy"
@@ -723,7 +729,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-004.jpg"
+                    src="assets/RestBand/img-004.jpg"
                     style="object-fit: contain; background: #f5f5f5"
                     alt="LED state iteration sketches"
                     loading="lazy"
@@ -742,7 +748,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-005.gif"
+                    src="assets/RestBand/img-005.gif"
                     alt="LED strip showing calm pulsing pattern in a quiet environment"
                     loading="lazy"
                   />
@@ -750,7 +756,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-006.gif"
+                    src="assets/RestBand/img-006.gif"
                     alt="LED strip showing high-intensity pattern in a loud environment"
                     loading="lazy"
                   />
@@ -770,7 +776,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-007.jpg"
+                    src="assets/RestBand/img-007.jpg"
                     alt="Final RestBand prototype worn on Apple Watch"
                     loading="lazy"
                   />
@@ -778,7 +784,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-008.jpg"
+                    src="assets/RestBand/img-008.jpg"
                     alt="Close-up of LED strip detail on the wristband"
                     loading="lazy"
                   />
@@ -788,12 +794,282 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-009.webp"
+                    src="assets/RestBand/img-009.webp"
                     style="max-height: 190px; object-fit: cover"
                     alt="RestBand displayed at the department design expo"
                     loading="lazy"
                   />
-                  <p class="cap">Presented at department design expo</p>
+                  <p class="cap">
+                    Presented at the department for digital design and
+                    interaction technologies design expo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Multimodal Interaction Game -->
+          <div class="proj-card featured" id="card-mig">
+            <button
+              class="proj-trigger"
+              onclick="toggleCard('mig')"
+              aria-expanded="false"
+              aria-controls="body-mig"
+            >
+              <div class="proj-trigger-info">
+                <span class="proj-title"
+                  >Multimodal Interaction Game &nbsp;<span class="feat-star"
+                    >&#9733;</span
+                  ></span
+                >
+                <span class="proj-subtitle">CAVI Collaboration</span>
+                <div class="proj-tags-row">
+                  <span class="tag tag-a">Interaction Design</span>
+                  <span class="tag tag-a">Multimodal Design</span>
+                  <span class="tag tag-a">Physical Computing</span>
+                  <span class="tag tag-a">Game Design</span>
+                  <span class="tag">Unity / C#</span>
+                  <span class="tag">VR / AR / XR</span>
+                  <span class="tag">Experimental Interactiondesign</span>
+                </div>
+                <span class="proj-hint" aria-hidden="true"
+                  >Read case study &rarr;</span
+                >
+              </div>
+              <img
+                class="proj-thumb"
+                src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani2 VR view 2.webp"
+                alt=""
+              />
+              <span class="proj-chevron" aria-hidden="true">&#x203A;</span>
+            </button>
+            <div class="proj-body" id="body-mig">
+              <img
+                class="proj-img hero-img"
+                src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani1 VR view 1.webp"
+                alt="First-person VR view inside the escape room game world"
+                loading="lazy"
+              />
+              <div class="sec">
+                <h3>The Brief</h3>
+                <p>
+                  CAVI gave us their studio, their interactive kit, and a
+                  deliberately loose prompt: explore interaction in a 3D space.
+                  That was more or less it. No fixed deliverable, no problem
+                  handed to us pre-defined.
+                </p>
+                <p>
+                  Which sounds freeing, and it is, but an open brief is its own
+                  kind of challenge. You have to find the real question
+                  yourself. With a room full of interaction technologies in
+                  front of us, the one that pulled at us was this: what happens
+                  to a person&rsquo;s sense of control when two people share one
+                  3D world but reach into it through completely different
+                  interfaces? Setups like that get pitched as collaborative and
+                  equal. In practice they rarely are. One interface gives you
+                  reach and a clear view of everything, the other leaves you
+                  reacting to things you never chose.
+                </p>
+                <p>
+                  So we made that imbalance the thing we&rsquo;d actually
+                  investigate: put two very different interaction technologies
+                  into one shared space, watch how power moves between the
+                  people using them, and ask whether design can rebalance it.
+                </p>
+              </div>
+              <div class="sec">
+                <h3>Concept</h3>
+                <p>
+                  We built a game. One player wears a VR headset and drops into
+                  a room they have to escape, hunting for keys scattered around
+                  the space. Everyone else sits at an interaction table above
+                  that same room, and their job is to stop them. They place
+                  physical pieces on the table and watch those pieces appear
+                  inside the game as walls, traps, and obstacles in the VR
+                  player&rsquo;s path.
+                </p>
+                <p>
+                  That split is the whole point. The VR player is inside the
+                  world, embodied, with a narrow first-person view, and they
+                  have to physically turn and move to work out where they are.
+                  The table players look down on the whole thing like
+                  they&rsquo;re rearranging a board. Same world, two completely
+                  different relationships to it. The multimodal part isn&rsquo;t
+                  a feature sitting on top of the game &mdash; it&rsquo;s what
+                  the game is about.
+                </p>
+              </div>
+              <div class="img-row c2">
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani1 VR view 1.webp"
+                    alt="Animated VR first-person view of the escape room interior"
+                    loading="lazy"
+                  />
+                  <p class="cap">
+                    VR player&rsquo;s view &mdash; inside the escape room
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani2 VR view 2.webp"
+                    alt="Animated VR view showing obstacles appearing in the game world"
+                    loading="lazy"
+                  />
+                  <p class="cap">Custom game objects made in Maya</p>
+                </div>
+              </div>
+              <div class="sec">
+                <h3>Interaction</h3>
+                <p>Two interfaces, two ways of acting on the world.</p>
+                <p>
+                  The VR player uses a headset and controllers, but their real
+                  input is their own body: looking around, orienting, walking
+                  the room to find keys and read the space. Everything they know
+                  comes from being inside it.
+                </p>
+                <p>
+                  The table players use handcrafted physical pieces, each one
+                  mapped to something in the game. A small knight figure dropped
+                  a set of medieval armour into the world. Shards of glass set
+                  into clay became spike traps. Plain boxes became solid walls
+                  that block a corridor. Place a piece on the table, and its
+                  digital twin shows up in the room a moment later, right where
+                  the VR player has to deal with it.
+                </p>
+                <p>
+                  So one side perceives the world by being in it, and the other
+                  side reshapes the world by handling objects on a table. The
+                  system keeps those two channels talking to each other in real
+                  time.
+                </p>
+              </div>
+              <div class="img-row c2">
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani3 VR View 3.webp"
+                    alt="Animated VR view showing the room from a different angle as the player navigates"
+                    loading="lazy"
+                  />
+                  <p class="cap">
+                    More custom assets, including torches with funtional
+                    lighting effects
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/Ani4 Table View.webp"
+                    alt="Animated top-down view of the interaction table with physical pieces being placed"
+                    loading="lazy"
+                  />
+                  <p class="cap">
+                    Table view &mdash; The view seen on the interaction table.
+                    It has UI elements not visible to the VR player.
+                  </p>
+                </div>
+              </div>
+              <div class="sec">
+                <h3>Process &amp; Outcome</h3>
+                <p>
+                  We modelled the custom assets in Maya and built the game in
+                  Unity, programmed in C#. The physical pieces were made by hand
+                  so each one looked and felt like its in-game counterpart, and
+                  that mattered more than we expected. Picking up a tiny knight
+                  is a different experience than tapping a menu, and it changed
+                  how the table players treated their choices.
+                </p>
+                <p>
+                  Then we tested it with people, and the imbalance showed up
+                  loud and clear. When both sides act at the same time, the
+                  table players hold most of the power. They see everything,
+                  they shape the space, and the VR player spends the whole game
+                  reacting to decisions they had no part in.
+                </p>
+                <p>
+                  The interesting bit was the fix. Pulling the two roles apart
+                  in time &mdash; letting one side act and then the other
+                  respond instead of both going at once &mdash; took a lot of
+                  the lopsidedness out of it. Asynchronous interaction gave the
+                  VR player room to read a situation and answer it rather than
+                  just getting buried. A small structural change, with a real
+                  effect on who feels in control.
+                </p>
+              </div>
+              <div class="img-row">
+                <div>
+                  <video
+                    controls
+                    preload="none"
+                    style="
+                      width: 100%;
+                      border-radius: var(--r-sm);
+                      border: 1px solid var(--border);
+                    "
+                  >
+                    <source
+                      src="assets/Multimodal%20Interaction%20Game%20(CAVI%20Collaboration)/IMG_0432.mp4"
+                      type="video/mp4"
+                    />
+                    <source
+                      src="assets/Multimodal%20Interaction%20Game%20(CAVI%20Collaboration)/IMG_0432.webm"
+                      type="video/webm"
+                    />
+                  </video>
+                  <p class="cap">Gameplay footage</p>
+                </div>
+              </div>
+              <div class="img-row c2">
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0426.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
+                </div>
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0428.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
+                </div>
+              </div>
+              <div class="img-row c2">
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0430.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
+                </div>
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0431.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
+                </div>
+              </div>
+              <div class="img-row c2">
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0433.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
+                </div>
+                <div>
+                  <img
+                    src="assets/Multimodal Interaction Game (CAVI Collaboration)/IMG_0434.webp"
+                    alt="Photo from the Multimodal Interaction Game project"
+                    loading="lazy"
+                  />
+                  <p class="cap"></p>
                 </div>
               </div>
             </div>
@@ -817,7 +1093,7 @@
                   >Aarhus University &mdash; Master's thesis</span
                 >
                 <div class="proj-tags-row">
-                  <span class="tag tag-a">Interaction Design</span>
+                  <span class="tag tag-a">Qualitative Research</span>
                   <span class="tag tag-a">Ethnography</span>
                   <span class="tag tag-a">Framework Design</span>
                   <span class="tag">Game Studies</span>
@@ -828,7 +1104,7 @@
               </div>
               <img
                 class="proj-thumb"
-                src="assets/img-010.jpg"
+                src="assets/Designing for Emergence/img-010.jpg"
                 alt=""
                 loading="lazy"
               />
@@ -837,7 +1113,7 @@
             <div class="proj-body" id="body-em">
               <img
                 class="proj-img hero-img"
-                src="assets/img-010.jpg"
+                src="assets/Designing for Emergence/img-010.jpg"
                 alt="FGCA weekly gathering — players competing at fighting game setups"
                 loading="lazy"
               />
@@ -875,7 +1151,7 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-011.jpg"
+                    src="assets/Designing for Emergence/img-011.jpg"
                     alt="Street Fighter II — the accidental combo mechanic that defined a genre"
                     loading="lazy"
                   />
@@ -888,7 +1164,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-012.jpg"
+                    src="assets/Designing for Emergence/img-012.jpg"
                     alt="Interview session with FGCA community members"
                     loading="lazy"
                   />
@@ -898,7 +1174,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-013.jpg"
+                    src="assets/Designing for Emergence/img-013.jpg"
                     alt="Players at FGCA weekly gathering"
                     loading="lazy"
                   />
@@ -959,7 +1235,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-014.jpg"
+                    src="assets/Designing for Emergence/img-014.jpg"
                     alt="Players discussing strategies at FGCA"
                     loading="lazy"
                   />
@@ -967,7 +1243,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-015.jpg"
+                    src="assets/Designing for Emergence/img-015.jpg"
                     style="object-fit: contain; background: var(--surf2)"
                     alt="Second iteration emergent design framework diagram"
                     loading="lazy"
@@ -1024,9 +1300,9 @@
                 >
                 <div class="proj-tags-row">
                   <span class="tag tag-a">Critical Design</span>
+                  <span class="tag tag-a">Persuasive Design</span>
                   <span class="tag tag-a">JavaScript</span>
-                  <span class="tag tag-a">Pixel Art</span>
-                  <span class="tag">Surveillance Capitalism</span>
+                  <span class="tag">Pixel Art</span>
                 </div>
                 <span class="proj-hint" aria-hidden="true"
                   >Read case study &rarr;</span
@@ -1034,7 +1310,7 @@
               </div>
               <img
                 class="proj-thumb"
-                src="assets/img-016.webp"
+                src="assets/Datagotcha/img-016.webp"
                 alt=""
                 loading="lazy"
               />
@@ -1043,7 +1319,7 @@
             <div class="proj-body" id="body-dg">
               <img
                 class="proj-img hero-img"
-                src="assets/img-016.webp"
+                src="assets/Datagotcha/img-016.webp"
                 alt="Datagotcha gameplay screen showing the blob character and data feed interface"
                 loading="lazy"
               />
@@ -1077,7 +1353,7 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-017.webp"
+                    src="assets/Datagotcha/img-017.webp"
                     alt="Blob initialisation animation &mdash; character hatching"
                     loading="lazy"
                   />
@@ -1101,7 +1377,7 @@
               <div class="img-row c3">
                 <div>
                   <img
-                    src="assets/img-018.webp"
+                    src="assets/Datagotcha/img-018.webp"
                     style="object-fit: contain; background: #1a0a2e"
                     alt="Blob happy animation when fed data"
                     loading="lazy"
@@ -1110,7 +1386,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-019.webp"
+                    src="assets/Datagotcha/img-019.webp"
                     style="object-fit: contain; background: #1a0a2e"
                     alt="Blob hungry animation demanding more data"
                     loading="lazy"
@@ -1119,7 +1395,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-020.webp"
+                    src="assets/Datagotcha/img-020.webp"
                     style="object-fit: contain; background: #1a0a2e"
                     alt="Blob dead animation after running out of data"
                     loading="lazy"
@@ -1150,7 +1426,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-021.jpg"
+                    src="assets/Datagotcha/img-021.jpg"
                     style="object-fit: contain; background: #1a0a2e"
                     alt="Datagotcha gameplay screenshot showing the question interface"
                     loading="lazy"
@@ -1161,7 +1437,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-022.jpg"
+                    src="assets/Datagotcha/img-022.jpg"
                     style="object-fit: contain; background: var(--surf2)"
                     alt="State flowchart showing question escalation logic"
                     loading="lazy"
@@ -1204,7 +1480,8 @@
                   <span class="tag tag-a">Strategic Design</span>
                   <span class="tag tag-a">Children's UX</span>
                   <span class="tag tag-a">Concept Design</span>
-                  <span class="tag">JavaScript Prototype</span>
+                  <span class="tag tag-a">Behavioural Design</span>
+                  <span class="tag">Rapid Prototyping</span>
                 </div>
                 <span class="proj-hint" aria-hidden="true"
                   >Read case study &rarr;</span
@@ -1212,7 +1489,7 @@
               </div>
               <img
                 class="proj-thumb"
-                src="assets/img-023.jpg"
+                src="assets/Ewii Companion (Ewii Collaboration)/img-023.jpg"
                 alt=""
                 loading="lazy"
               />
@@ -1221,7 +1498,7 @@
             <div class="proj-body" id="body-ewii">
               <img
                 class="proj-img hero-img"
-                src="assets/img-023.jpg"
+                src="assets/Ewii Companion (Ewii Collaboration)/img-023.jpg"
                 alt="EWII Companion character displayed on a car monitor prototype"
                 loading="lazy"
               />
@@ -1283,7 +1560,7 @@
               <div class="img-row c2" style="margin-bottom: 1rem">
                 <div>
                   <img
-                    src="assets/img-024.webp"
+                    src="assets/Ewii Companion (Ewii Collaboration)/img-024.webp"
                     alt="EWII companion character in happy state during green energy charging"
                     loading="lazy"
                   />
@@ -1291,7 +1568,7 @@
                 </div>
                 <div>
                   <img
-                    src="assets/img-025.webp"
+                    src="assets/Ewii Companion (Ewii Collaboration)/img-025.webp"
                     alt="EWII companion character working hard during black energy charging"
                     loading="lazy"
                   />
@@ -1314,7 +1591,7 @@
               <div class="img-row c2">
                 <div>
                   <img
-                    src="assets/img-026.webp"
+                    src="assets/Ewii Companion (Ewii Collaboration)/img-026.webp"
                     style="
                       object-fit: contain;
                       background: var(--surf2);
@@ -1371,10 +1648,11 @@
                 >
                 <div class="proj-tags-row">
                   <span class="tag tag-a">User Research</span>
-                  <span class="tag tag-a">Ethnography</span>
+                  <span class="tag tag-a">Ethnographic Research</span>
                   <span class="tag tag-a">Mental Models</span>
+                  <span class="tag tag-a">Inclusive Design</span>
                   <span class="tag">Usability Testing</span>
-                  <span class="tag">Workshop</span>
+                  <span class="tag">Figma</span>
                 </div>
                 <span class="proj-hint" aria-hidden="true"
                   >Read case study &rarr;</span
@@ -1382,7 +1660,7 @@
               </div>
               <img
                 class="proj-thumb"
-                src="assets/img-027.jpg"
+                src="assets/Desigining for Older Generations/img-027.jpg"
                 alt=""
                 loading="lazy"
               />
@@ -1391,7 +1669,7 @@
             <div class="proj-body" id="body-mm">
               <img
                 class="proj-img hero-img"
-                src="assets/img-027.jpg"
+                src="assets/Desigining for Older Generations/img-027.jpg"
                 alt="Workshop session with older adult participants"
                 loading="lazy"
               />
@@ -1449,7 +1727,7 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-028.jpg"
+                    src="assets/Desigining for Older Generations/img-028.jpg"
                     alt="Four prototype variations testing 2D vs 3D and cold vs warm aesthetics"
                     loading="lazy"
                   />
@@ -1462,7 +1740,7 @@
               <div class="img-row">
                 <div>
                   <img
-                    src="assets/img-029.jpg"
+                    src="assets/Desigining for Older Generations/img-029.jpg"
                     alt="Bookcase browser prototype showing open pages as open books on a shelf"
                     loading="lazy"
                   />
@@ -1533,7 +1811,9 @@
                 <div class="proj-tags-row">
                   <span class="tag tag-a">Critical Design</span>
                   <span class="tag tag-a">Speculative Design</span>
-                  <span class="tag tag-a">AI</span>
+                  <span class="tag tag-a">Technology Ethics</span>
+                  <span class="tag">AI</span>
+                  <span class="tag">Figma</span>
                 </div>
                 <span class="proj-hint" aria-hidden="true"
                   >Read case study &rarr;</span
@@ -1541,7 +1821,7 @@
               </div>
               <img
                 class="proj-thumb"
-                src="assets/img-030.jpg"
+                src="assets/U&AI/img-030.jpg"
                 alt=""
                 loading="lazy"
               />
@@ -1550,7 +1830,7 @@
             <div class="proj-body" id="body-uai">
               <img
                 class="proj-img hero-img"
-                src="assets/img-030.jpg"
+                src="assets/U&AI/img-030.jpg"
                 alt="U&AI prototype exhibited at university design show"
                 loading="lazy"
               />
@@ -1636,7 +1916,7 @@
             <div class="logo-hero">
               <div class="logo-card lc-light" style="min-height: 160px">
                 <img
-                  src="assets/img-031.jpg"
+                  src="assets/Graphic Work/RabbIT Logo/img-031.jpg"
                   alt="RabbIT full logo"
                   style="max-height: 110px"
                   loading="lazy"
@@ -1651,7 +1931,7 @@
                 <div>
                   <div class="logo-card lc-light">
                     <img
-                      src="assets/img-032.jpg"
+                      src="assets/Graphic Work/RabbIT Logo/img-032.jpg"
                       alt="RabbIT black variant"
                       loading="lazy"
                     />
@@ -1661,7 +1941,7 @@
                 <div>
                   <div class="logo-card lc-dark">
                     <img
-                      src="assets/img-033.jpg"
+                      src="assets/Graphic Work/RabbIT Logo/img-033.jpg"
                       alt="RabbIT blue variant"
                       loading="lazy"
                     />
@@ -1671,7 +1951,7 @@
                 <div>
                   <div class="logo-card lc-dark">
                     <img
-                      src="assets/img-034.jpg"
+                      src="assets/Graphic Work/RabbIT Logo/img-034.jpg"
                       alt="RabbIT gradient variant"
                       loading="lazy"
                     />
@@ -1685,7 +1965,7 @@
             <div class="logo-hero">
               <div class="logo-card lc-light" style="min-height: 130px">
                 <img
-                  src="assets/img-035.jpg"
+                  src="assets/Graphic Work/Palle Holmegaard Logo/img-035.jpg"
                   alt="PH Transport full logo"
                   style="max-height: 80px"
                   loading="lazy"
@@ -1695,7 +1975,7 @@
 
             <div class="lego-wrap">
               <img
-                src="assets/img-036.webp"
+                src="assets/Graphic Work/Animation/Lego man searching/img-036.webp"
                 alt="Animated lego man searching &mdash; motion graphic"
                 style="max-width: 100%; width: 100%"
                 loading="lazy"
@@ -1717,7 +1997,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-037.webp"
+                  src="assets/Graphic Work/FGCA/Monthly Event Graphics/img-037.webp"
                   alt="FGCA monthly highlight reel, November 2025"
                   loading="lazy"
                 />
@@ -1726,7 +2006,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-038.jpg"
+                  src="assets/Graphic Work/FGCA/Monthly Event Graphics/img-038.jpg"
                   alt="FGCA monthly highlight reel, April 2026"
                   loading="lazy"
                 />
@@ -1735,7 +2015,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-039.jpg"
+                  src="assets/Graphic Work/FGCA/Monthly Event Graphics/img-039.jpg"
                   alt="FGCA monthly highlight reel, June 2026"
                   loading="lazy"
                 />
@@ -1746,7 +2026,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-040.jpg"
+                  src="assets/Graphic Work/FanCon/img-040.jpg"
                   alt="Fancon 2025 event graphic"
                   loading="lazy"
                 />
@@ -1755,7 +2035,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-041.jpg"
+                  src="assets/Graphic Work/FanCon/img-041.jpg"
                   alt="Fancon 2026 event graphic"
                   loading="lazy"
                 />
@@ -1774,7 +2054,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-042.jpg"
+                  src="assets/Graphic Work/Hitbox Overlay/img-042.jpg"
                   alt="Hitbox controller overlay concept design"
                   loading="lazy"
                 />
@@ -1785,7 +2065,7 @@
               <div>
                 <img
                   class="g-img"
-                  src="assets/img-043.jpg"
+                  src="assets/Graphic Work/Hitbox Overlay/img-043.jpg"
                   alt="Hitbox controller overlay final print"
                   loading="lazy"
                 />
